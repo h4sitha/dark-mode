@@ -1,0 +1,19 @@
+:root {
+    --light-clr: hsl(0, 0%, 90%);
+    --dark-clr: hsl(0, 0%, 10%);
+}
+
+body {
+    background-color: var(--light-clr);
+    color: var(--dark-clr);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    color: var(--light-clr);
+    background-color: var(--dark-clr);
+    padding: 12px 24px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
