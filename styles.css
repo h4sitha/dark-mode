@@ -3,6 +3,11 @@
     --dark-clr: hsl(0, 0%, 10%);
 }
 
+.dark-mode {
+    --light-clr: hsl(0, 0%, 10%);
+    --dark-clr: hsl(0, 0%, 90%);
+}
+
 body {
     background-color: var(--light-clr);
     color: var(--dark-clr);
